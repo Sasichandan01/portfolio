@@ -1,0 +1,29 @@
+#about{
+  padding-top: 5%;
+}
+.about {
+  margin: auto;
+ font-family: 'Rubik Doodle Shadow';
+  padding-top: 5%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.about-details p {
+  padding-top: 5%;
+}
+.about-details {
+  border-radius: 25px;
+  background-color: black;
+  line-height: 30px;
+  padding-bottom: 3%;
+}
+
+.about-details button{
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+  
+}
+.about-details button a{
+  color: black !important;
+}

@@ -1,0 +1,54 @@
+.connect{
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  top:5%;
+  right:5%;
+  width:200px;
+  justify-content: space-evenly;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 10px;;
+  border:1px solid white;
+  background: -webkit-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  font-family: 'Shadows Into Light';
+}
+.connect div{
+  height: 30px;
+}
+.connect div a p{
+  margin:5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width:30px;
+  overflow: hidden;
+  height: 30px;;
+  background-color: cadetblue;
+  transition: width 0.5s ease-in-out;
+}
+.connect div a {
+  margin-bottom: 2px;;
+  overflow: hidden;
+}
+#insta:hover{
+   width: 103px;
+}
+#linked:hover{
+  width:93px;
+}
+#github:hover{
+  width:85px;
+}
+.connect div a p i{
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 4px;;
+  transform: scale(1.1);
+}
+.connect div a p span{
+  background-color: white;
+  color: black;
+}
+

@@ -1,0 +1,79 @@
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.nav {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, 200%);
+  background: -webkit-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 400px;
+  height: 75px;
+  border: 2px solid black;
+  border-radius: 25px;
+  border-style: double;
+  color: white;
+  border-color: white;
+}
+
+@media (max-height: 1438px) {
+  .nav {
+    transform: translate(-50%, 100%);
+    bottom:10%;
+  }
+}
+@media (max-height: 800px) {
+  .nav {
+    transform: translate(-50%, 100%);
+    bottom:12%;
+  }
+}
+@media (max-height: 470px) {
+  .nav {
+    transform: translate(-50%, 100%);
+    bottom:20%;
+  }
+}
+@media (max-height: 300px) {
+  .nav {
+    transform: translate(-50%, 100%);
+    bottom:30%;
+  }
+}
+@media (max-width:150px){
+  .nav{
+    
+    height:fit-content
+  }
+}
+@media (max-width:500px){
+  .nav{
+    width:70%;
+    height:50px;
+  }
+  .nav p {
+  margin: auto;
+  width:20px;
+  height:25px;
+  overflow: hidden;
+  transition: width 0.7s ;
+}
+.nav p:hover{
+  width: 100%;
+}
+
+}
+.nav p {
+  margin: auto;
+
+}
+.nav p:hover{
+  width: fit-content;
+}

@@ -1,0 +1,92 @@
+.contact h1 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  font-weight: bolder;
+  font-family: 'Rubik Doodle Shadow';
+}
+.contact{
+  font-family: "Montserrat";
+}
+.qwerty {
+  padding-right: 30px;
+}
+#row2 {
+  margin-bottom: 30%;
+}
+.contact h3 {
+  font-weight: bolder;
+}
+table {
+  width: 100%;
+}
+.td {
+  text-align: right;
+}
+tr {
+  height: 40px;
+}
+input{
+  border-radius: 10px;
+  background: -webkit-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  width: 100%;
+  margin: 5px;
+  border: none;
+  height: 50px;
+  font-size: small;
+}
+input:focus {
+  background-color: -internal-light-dark(
+    rgb(232, 240, 254),
+    rgba(70, 90, 126, 0.4)
+  ) !important;
+}
+textarea {
+  border-radius: 10px;
+   background: -webkit-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  width: 100%;
+  margin: 5px;
+  border: none;
+  color: white;
+  text-align: center;
+}
+#row1 {
+  height: 50px;
+  background: none;
+  margin-bottom: 10px;
+}
+#contact-details {
+  margin-top: 50px;
+}
+.but {
+  display: flex;
+  justify-content: end;
+  
+}
+
+.but-button{
+  margin: 5px;
+  border: 0;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  font-weight: bolder;
+  text-transform: uppercase;
+  width: fit-content;
+  color:white;
+}
+.but-button i{
+  color:#229ED9;
+}
+input {
+  color: white;
+  text-align: center;
+}
